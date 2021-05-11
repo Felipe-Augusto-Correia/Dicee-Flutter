@@ -4,12 +4,13 @@ import 'dart:math';
 void main() {
   return runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Color(0xff633EF1),
         appBar: AppBar(
-          title: Text('Dicee!'),
+          title: Text('Dicee'),
           centerTitle: true,
-          backgroundColor: Colors.red,
+          backgroundColor: Color(0xff633EF1),
         ),
         body: DicePage(),
       ),
